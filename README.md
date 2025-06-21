@@ -1,28 +1,16 @@
 # Poetic_Chatbot
-Poetic Personality Chatbot Documentation
+# Poetic Personality Chatbot
 
-Introduction
-------------
-The Poetic Personality Chatbot transforms everyday messages into beautiful, poetic verses using Google's Gemini AI model. This chatbot interprets the emotional core of user inputs and responds with original poetry featuring an ABAB rhyme scheme, nature-based metaphors, and a sense of hope or reflection.
+## Overview
+Transforms user messages into poetic verses using Google Gemini. Features a typing animation for immersive, real-time poetic responses.
 
-Implementation Steps
---------------------
-1. Setting Up the Development Environment: Installed necessary libraries including google-generativeai and ipywidgets.
-2. API Configuration: Configured Gemini API with personal API key.
-3. Prompt Engineering: Crafted a prompt to guide the model to produce poetic responses with specific rhyme scheme and imagery.
-4. Typing Animation: Implemented a typewriter effect using IPython widgets for immersive user experience.
-5. Chat Interface: Created an interactive chat loop for user input and poetic response generation.
+## Usage
+1. Install requirements: `pip install -r requirements.txt`
+2. Add your Gemini API key in `poetic_chatbot.py`
+3. Run: `python poetic_chatbot.py`
+4. Type your message and receive a poetic response!
 
-Challenges and Solutions
-------------------------
-- Rhyme Scheme Consistency: Ensured ABAB rhyme scheme by explicitly defining it in the prompt.
-- Response Length Control: Limited poem length to 4-8 lines to maintain conversational flow.
-- Typing Animation Timing: Balanced delay for natural typing rhythm.
-
-Conclusion
-----------
-The project demonstrates how prompt engineering can transform a general AI model into a poetic companion, showcasing AI's creative potential.
-
-Reflection
-----------
-Prompt engineering shaped the chatbot's poetic personality by setting clear constraints and emotional framing, enhancing creativity and coherence. This project revealed that AI creativity emerges from well-structured prompts rather than randomness.
+## Files
+- `poetic_chatbot.py`  – Main chatbot code
+- `Poetic_Chatbot_Documentation.txt`  – Project writeup
+- `requirements.txt`  – Python dependencies
